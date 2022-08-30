@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         // 获取验证码
-        String code = login.getVerify("13712112449");
+        String code = login.getVerify("1371111112");
         // 提交验证码
         String verifyResult = login.submitVerify(code);
 
